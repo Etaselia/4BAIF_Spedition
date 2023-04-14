@@ -63,7 +63,7 @@ public class Vehicles {
     }
 
     public void load(int weight) throws SpeditionException {
-        if (weight + load <= maxWeight){
+        if (weight + load <= maxWeight*1000){
             load += weight;
         }else {
             throw new SpeditionException("maxWeight over load Limit");
