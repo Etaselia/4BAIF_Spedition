@@ -36,10 +36,6 @@ public class Vehicles {
         return load;
     }
 
-    public void setLoad(int load) {
-        this.load = load;
-    }
-
     public Spedition getOwner() {
         return owner;
     }
